@@ -207,6 +207,7 @@ namespace {
       (void) llvm::createFloat2IntPass();
       (void) llvm::createEliminateAvailableExternallyPass();
       (void) llvm::createDougiePass();
+      (void) llvm::createSyncEliminationPass();
 
       (void)new llvm::IntervalPartition();
       (void)new llvm::ScalarEvolutionWrapperPass();

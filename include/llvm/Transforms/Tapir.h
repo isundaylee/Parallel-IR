@@ -28,6 +28,12 @@ Pass *createLoopSpawningPass();
 
 //===----------------------------------------------------------------------===//
 //
+// SyncElimination - TODO
+//
+FunctionPass *createSyncEliminationPass();
+
+//===----------------------------------------------------------------------===//
+//
 // Dougie - Do Dougie's Pass
 //
 FunctionPass *createDougiePass();
